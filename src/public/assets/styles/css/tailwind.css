@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .g-divider-in-btn {
+    border-left: 1px solid theme("colors.midnight-express-color");
+    @apply h-5 sm:h-[25px];
+  }
+  .g-form-item {
+    @apply mb-5 md:mb-[30px];
+  }
+  .g-label {
+    @apply text-xs sm:text-sm font-medium text-steel-color;
+  }
+}

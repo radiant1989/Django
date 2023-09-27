@@ -1,0 +1,30 @@
+export const ERRORS = {
+  PASSWORD_REQUIRED: "Please enter password.",
+  PASSWORD_MIN_LENGTH: "Minimum 8 Characters.",
+  PASSWORD_SYMBOL_NUMBER: "At Least 1 Number and Symbol (like !$@?#).",
+  PASSWORD_LETTERS: "Includes Lowercase and Uppercase.",
+  USERNAME_MIN_LENGTH: "Your Username Must be At Least 3 Characters Long.",
+  USERNAME_MAX_LENGTH: "Your Username Must be Less than 14 Characters Long.",
+  USERNAME_INVALID: "Username contains Invalid Characters.",
+  USERNAME_REQUIRED: "Please enter username.",
+  EMAIL_AT_LETTER_REQUIRED: "Please include an '@' in your email address",
+  EMAIL_DOT_LETTER_REQUIRED: "Please include a '.' in your email address",
+  EMAIL_DOMAIN_NOT_SUPPPORTED: "Email domain not supported",
+  EMAIL_INVALID: "Please enter a valid email address",
+  EMAIL_REQUIRED: "Please enter email address",
+  EMAIL_OR_USERNAME_MIN_LENGTH: "Minimum character length is 3",
+  LOGIN_PASSWORD_MIN_LENGTH: "Minimum 6 Characters.",
+  WHITELIST_ADDRESS_NAME_REQUIRED: "Please input address name.",
+  WHITELIST_ADDRESS_NAME_MAX_LENGTH: "Maximum 15 Characters.",
+  WHITELIST_ADDRESS_REQUIRED: "Please input address.",
+  INVALID_WHITELIST_ADDRESS:
+    "Invalid address, ensure it matches your chosen coin.",
+  TIP_USERNAME_MIN_LENGTH: "The Username Must be At Least 3 Characters Long.",
+  TIP_USERNAME_MAX_LENGTH: "The Username Must be Less than 14 Characters Long.",
+  INVALID_2FA_CODE: "Please input 6 digit code.",
+  TWO_FA_CODE_INCORRECT:
+    "The 2FA code you entered doesn't match. Please try again.",
+  CONFIRM_CODE_EXPIRED:
+    "The 6-digit code has expired after 15 minutes. Please reinitiate the action to get a new code.",
+  TWO_FA_CODE_REQUIRED: "Please input 2FA code.",
+};

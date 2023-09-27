@@ -1,0 +1,1 @@
+// graphql for keno game

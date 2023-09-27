@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animation-pause {
+    animation-play-state: paused;
+  }
+  .g-mb-md {
+    @apply mb-5 md:mb-[30px];
+  }
+  .g-p-page {
+    @apply p-5 md:p-10;
+  }
+  .g-px-page {
+    @apply px-5 md:px-10;
+  }
+  .g-text-base {
+    @apply text-sm md:text-base;
+  }
+  .g-text-lg {
+    @apply text-base md:text-lg;
+  }
+  .g-text-sm {
+    @apply text-xs md:text-sm;
+  }
+  .g-rounded-tile {
+    @apply rounded-[6px] md:rounded-[7px];
+  }
+  .g-text-primary-gradient {
+    @apply bg-primary-gradient bg-clip-text text-transparent;
+  }
+  .g-text-third-gradient {
+    @apply bg-third-gradient bg-clip-text text-transparent;
+  }
+  .g-p-modal {
+    @apply p-[15px] md:p-[30px]
+  }
+}
+
+@layer components {
+  .g-divider-in-btn {
+    border-left: 1px solid theme("colors.midnight-express-color");
+    @apply h-5 md:h-[25px];
+  }
+  .g-divider-in-footer {
+    border-left: 2px solid theme("colors.black-russian-color");
+    @apply h-5 sm:h-[25px];
+  }
+  .g-divider-in-panel {
+    border-left: 2px solid #2e3442;
+    @apply h-[55px];
+  }
+  .g-h-divider-in-panel {
+    border-top: 1px solid #333947;
+    @apply w-full;
+  }
+  .g-form-item {
+    @apply mb-[15px] md:mb-5;
+  }
+  .g-label {
+    @apply text-xs md:text-sm font-medium text-steel-color;
+  }
+  .g-textarea {
+    @apply px-[15px] py-2 md:py-2.5 rounded-lg border-2 border-solid border-transparent focus:border-[#3CD3AF] shadow-dark-box bg-dark-color overflow-hidden outline-none text-white;
+  }
+}
+#site-header {
+  box-shadow: #0003 0 4px 6px -1px,#0000001f 0 2px 4px -1px;
+  touch-action: none;
+}
